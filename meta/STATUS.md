@@ -1,6 +1,6 @@
 # STATUS.md — current learning state
 
-_Last updated: 2026-06-12_
+_Last updated: 2026-06-13_
 
 ## Current phase
 
@@ -8,24 +8,23 @@ _Last updated: 2026-06-12_
 
 ## Active focus
 
-- [ ] What is a token?
+- [x] What is a token?
 - [ ] What is an embedding?
 - [ ] What is a context window and why does it matter?
 - [ ] What is prompt engineering and how does it work?
 
 ## Open questions
 
-- How do tokens relate to cost when calling an API?
-- Why do some words become multiple tokens?
-- What is the relationship between embeddings and semantic search?
+- What is the relationship between token IDs and embeddings?
+- How does a model turn a sequence of token IDs into something it can reason about?
 
 ## Completed concepts
 
-_(none yet — journey just started)_
+- **Tokens** — chunks of text mapped to integer IDs. Not words, not characters. ~1 token per ¾ word. Cost, speed, and context window all measured in tokens. Code and numbers tokenize less efficiently than prose.
 
-## Next up after Phase 1
+## Next up
 
-Begin Phase 2: RAG. Start with `rag/what-is-rag.md`.
+Embeddings — how token IDs become vectors the model can reason about mathematically.
 
 ## Notes on learning style
 
